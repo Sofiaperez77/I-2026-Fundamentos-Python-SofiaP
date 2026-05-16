@@ -15,13 +15,18 @@ soy_yo=npmbre=="sofia"and edad==18)
 #calcular mayoria de edad
 
 
-#Imprimir variables en pantalla
+#Imprimir variables en pantalla.
 print(soy_yo)
 no_soy_yo= not (nombre=="sofia"and edad ==18)
 soy_yo=not(nombre=="sofia"and edad==18)
 talvez__soy_yo=not(nombre=="sofia" and edad )
 
+
+
+
+
 print(soy_yo)
 print(no_soy_yo)
 print(quizas_soy_yo)
 soy_yo=(nombre="sofia"and edad ==18)
+sofiaperez
