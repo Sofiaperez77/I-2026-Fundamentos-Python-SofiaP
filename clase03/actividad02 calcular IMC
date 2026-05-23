@@ -1,0 +1,20 @@
+print("Bienvenido a la aplicacion de calculo de IMC")
+nombre = input("ingrese sus apellidos: ")
+apellidos = input("ingrese sus apellidos: ")
+edad = int(input("ingrese su edad: "))
+peso = float(input("ingrese su peso en kg: "))
+altura=float(input("ingrese su altura en metros:"))
+imc= peso/(altura**2) 
+if imc <18.5:
+    rango ="bajo peso"
+elif imc > = 18.5 and imc < 25:
+    rango = "peso normal"
+elif imc >=25 and imc < 30:
+    rango = "sobrepeso"
+elif imc >=30 and imc < 35:
+    rango = "obesidad" 
+print("----RESULTADOS----")
+print("nombre:",nombre,apellidos)
+print("Edad:",edad)
+print("su IMC es:",imc)
+print("rango de peso:",rango)
