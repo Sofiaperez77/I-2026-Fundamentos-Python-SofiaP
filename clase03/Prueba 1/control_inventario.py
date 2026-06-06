@@ -4,7 +4,9 @@ while True:
     precio=float(input("Ingrese el precio del producto:"))
     total= precio * Cantidad
     print("El total a pagar es: ", total )
-    print("Producto:",precio)
+    print("Producto:, precio")
     print("Precio:,precio")
-    print("Cantidad:,")
+    print("Cantidad:,cantidad")
+    print("Total a pagar",total)
+    
 
