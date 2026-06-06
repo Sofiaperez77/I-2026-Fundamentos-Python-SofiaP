@@ -1,0 +1,3 @@
+nombre:   Sofia
+carnet   123457
+nota final:   9.9
